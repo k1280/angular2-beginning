@@ -6,17 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'cokolwiek!';
+  title = 'Rent Payment Adminitration Application';
   counter = 0;
   counter2 = 0;
 
-  constructor(){
-    setInterval(() => {
-      this.counter++;
-    }, 500)
+  // constructor(){
+  //   setInterval(() => {
+  //     this.counter++;
+  //   }, 500)
  
-    setInterval(() => {
-      this.counter2++;
-    }, 1200)
-  }
+  //   setInterval(() => {
+  //     this.counter2++;
+  //   }, 1200)
+  // }
 }
