@@ -3,7 +3,7 @@ import { Hero } from './hero';
 import { HeroService } from './hero.service';
 
 @Component({
-  selector: 'my-heores',
+  selector: 'my-heroes',
   template: `
     <h2>My Heroes</h2>
     <ul class="heroes">
